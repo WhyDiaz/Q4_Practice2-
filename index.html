@@ -15,21 +15,22 @@
         function teamRank(){
             var rank = "1st";
 
-            switch (rank){
-                case "1st" :
+            switch (true){
+                case (rank === "1st") :
                     alert("Champion!");
                     break;
-                case "2nd" :
+                case (rank === "2nd") :
                     alert("Second Place!");
                     break;
-                case "3rd"  :
+                case (rank === "3rd") :
                     alert("Third Place!");
                     break;
-                case "4th"  :
+                case (rank === "4th")  :
                     alert("Fourth Place!");
                     break;    
                 default :
                 alert("Rank could not be determined");
+            }
         }
         let team = "Red";
 
